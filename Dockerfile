@@ -2,6 +2,7 @@
 FROM node
 WORKDIR '/opt/ReactApp'
 #COPY package.json .
+LABEL programmer="DANG Vincent-Nam <dang.vincentnam@gmail.com>"
 RUN npx create-react-app mygates_react_app
 # Copy all local files into the image.
 #COPY . .
